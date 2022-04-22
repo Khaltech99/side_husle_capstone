@@ -64,21 +64,47 @@ h3 {
 
 .list {
     list-style-type: none;
-    opacity: 0.5;
+    opacity: 0.8;
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-weight: 400;
    
 }
 
 .list--inline {
     display: inline-flex;
-    margin: 0 2rem;
-    width: 100%;
+     margin: 0; 
 }
 
 .list__item {
     padding: 1rem 0 ;
-
+    margin: 0 1rem;
+    width: 100%;
+    white-space: nowrap;
     
 }
 
+/* NavBar */
 
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+}
+
+.logo {
+    width: 10rem;
+    height: 100%;
+
+}
+
+.nav__list{
+   align-items: flex-end;
+}
+a {
+    text-decoration: none;
+}
+a > .list__item {
+    color: var(--color-white);
+    text-decoration: none;
+    
+}
