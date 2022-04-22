@@ -133,4 +133,35 @@ a > .list__item {
       background: var(--color-cyan);
       transition: background .4s ease-out;
   }
+
+  @media screen and (min-width:768px) {
+      .btn {
+          font-size: 1.5rem;
+      }
+  }
+
+  /* Input */
+  .input {
+        padding: 1.5rem 3.5rem;
+        border-radius: 30px;
+        outline: 0;
+        border: 0;
+        width: 100%;
+  }
+
+  ::placeholder {
+      font-size: 1.5rem;
+      font-weight: 400;
+      color: #555;
+      line-height: 1.5;
+      padding: 0 1.5rem;
+      
+
+  }
+
+  @media screen and (min-width:768px) {
+      ::placeholder {
+          font-size: 1.2rem;
+      }
+  }
    
