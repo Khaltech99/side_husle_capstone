@@ -1,0 +1,84 @@
+:root {
+    --intro-email-BG:hsl(217, 28%, 15%);
+    --main-BG:rgb(24, 31, 42 );
+    --footer-BG: hsl(216, 53%, 9%);
+    --testimonial-BG:hsl(219, 30%, 18%);
+    --color-cyan:hsl(176, 68%, 64%);
+    --color-blue: hsl(198, 60%, 50%);
+    --color-light-red:hsl(0, 100%, 63%);
+    --color-white: hsl(0, 0%, 100%);
+    --font-family: font-family: 'Open Sans', sans-serif; 
+    -- font-family: 'Raleway', sans-serif , ;
+}
+    /* Typography */
+/* * 
+    box-sizing: border-box;
+} */
+
+html {
+    font-size: 87.5%;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--main-BG);
+    color: var(--color-white);
+    line-height: 1.5;
+}
+ p{
+    color: var(--color-white);
+ }  
+
+
+
+h1 , h2 , h3 {
+     color: var(--color-white);
+     font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    font-size: 9rem;
+}
+h2 {
+    font-size: 6rem;
+}
+h3 {
+    font-size: 4rem;
+}
+
+@media screen and (min-width:1024px) {
+    body {
+            font-family: 'Open Sans', sans-serif;
+          }
+       h1 {
+        font-size: 8rem;
+    }
+    h2 {
+        font-size: 5rem;
+    }
+    h3 {
+        font-size: 4rem;
+    }
+       
+}
+/* List */
+
+.list {
+    list-style-type: none;
+    opacity: 0.5;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+   
+}
+
+.list--inline {
+    display: inline-flex;
+    margin: 0 2rem;
+    width: 100%;
+}
+
+.list__item {
+    padding: 1rem 0 ;
+
+    
+}
+
+
