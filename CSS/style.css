@@ -8,12 +8,12 @@
     --color-light-red:hsl(0, 100%, 63%);
     --color-white: hsl(0, 0%, 100%);
     --font-family: font-family: 'Open Sans', sans-serif; 
-    -- font-family: 'Raleway', sans-serif , ;
+    --font-family: 'Raleway', sans-serif  ;
 }
     /* Typography */
-/* * 
+ * , *::before , *::after {
     box-sizing: border-box;
-} */
+} 
 
 html {
     font-size: 87.5%;
@@ -102,9 +102,35 @@ h3 {
 }
 a {
     text-decoration: none;
+    color: var(--color-white);
 }
 a > .list__item {
     color: var(--color-white);
     text-decoration: none;
     
 }
+  /* Button */
+  .btn {
+      width: 100%;
+      display: inline-block;
+      font-size: 1.8rem;
+      padding: 2rem 3rem;
+      border-radius: 50px;
+      margin-top: 30px;
+      text-align: center;
+      white-space: nowrap;
+    
+    
+  }
+
+  .btn--primary {
+        background: var(--color-blue);
+        color: var(--color-white);
+        font-weight: 700;
+  }
+  
+  .btn--primary:hover {
+      background: var(--color-cyan);
+      transition: background .4s ease-out;
+  }
+   
