@@ -280,4 +280,23 @@ a > .list__item {
      }
  }
 
- 
+ /* Callout */
+
+ .callout {
+     background: var(--intro-email-BG);
+     padding: 2rem;
+     width: 100%;
+     height: auto;
+     
+ }
+ .callout__heading , .callout__body {
+     text-align: center;
+     
+ }
+
+ .callout  .callout__heading {
+     font-size: 2rem;
+     margin: 0;
+     white-space: nowrap;
+
+ }
