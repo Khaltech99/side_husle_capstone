@@ -33,6 +33,7 @@ body {
 h1 , h2 , h3 {
      color: var(--color-white);
      font-family: 'Raleway', sans-serif;
+     font-weight: 700;
 }
 
 h1 {
@@ -231,5 +232,52 @@ a > .list__item {
      
  }
 
-  
+
+ /* Card */
+
+ .card {
+     padding: 2rem 3rem;
+     margin: 2rem;
+     background: var(--testimonial-BG);
+ }
+ .card__image {
+     width: 4rem;
+     height: 4rem;
+     border-radius: 50%;
+     margin: 1.5rem 0;
+     margin-right: 1rem;
+     vertical-align: middle;
+ }
+ 
+ .card__body {
+     display: inline-flex;
+     justify-content: left;
+     align-items: center;
+     
+ }
+
+ .card__post {
+     font-size: 1.2rem;
+     padding-bottom: 0;
+     margin-bottom: 0;
+ }
+ .card__name {
+    margin-top: 0;
+ }
+.card__text {
+    text-align: left;
+}
+
+ @media screen and (min-width:760px){
+     .card__post {
+         font-size: 1rem;
+     }
+
+     .card__image {
+         width: 3rem;
+         height: 3rem;
+         border-radius: 50%;
+     }
+ }
+
  
