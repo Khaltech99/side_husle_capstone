@@ -200,12 +200,36 @@ a > .list__item {
     
      
  }
+/* Links */
 
 
- .link {
-     border-bottom: 1px solid var(--color-cyan);
-     color: var(--color-cyan);
+.link__text {
+    color: var(--color-cyan);
+    font-size: 1.5rem;
+    margin-top: auto;
+    border-bottom: 1px solid var(--color-cyan);
+    padding-bottom: 5px;
+}
 
+.link__text::after {
+    content: url(/icon/icon-arrow.svg);
+    vertical-align: middle;
+
+}
+
+.link__text:hover::after {
+    color: white;
+    margin-left: 10px;
+    transition: margin .4s ease-in-out;
+}
+
+
+ @media screen and (min-width:768px) {
+     .link__text {
+         font-size: 1.2rem;
+     }
+     
  }
+
   
  
