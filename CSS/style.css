@@ -196,10 +196,8 @@ a > .list__item {
         grid-column: 10rem;
         margin: 4rem;
     }
-    .grid-1x2 {
-        grid-template-columns: repeat(2 , 1fr);
-    }
-  .grid-1x3 {
+   
+      .grid-1x3 {
       grid-template-columns: repeat(3 , 1fr);
   }
   .grid-1x5 {
@@ -534,4 +532,26 @@ a > .list__item {
             margin-top: 1.5rem;
             
         }
+    }
+
+    /* Info */
+    .info {
+        background-color: var(--main-BG);
+        
+    }
+
+    .info__heading {
+        font-size: 2rem;
+    }
+
+    .info__content {
+        padding: 2rem 4rem;
+    }
+
+    @media screen and (min-width:768px) {
+        .grid-1x2 {
+            grid-template-columns: repeat(2 , 1fr);
+            column-gap: 10px;
+            row-gap: 10px;
+    }
     }
