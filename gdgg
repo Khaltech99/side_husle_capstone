@@ -1,0 +1,21 @@
+.footer__body-phone ,
+ .footer__body-email {
+     text-align: left;
+     display: flex;
+     justify-content: left;
+  
+ }
+   
+ .footer__body-phone::before ,
+ .footer__body-email::before {
+     margin-right: 2rem;
+     vertical-align: middle;
+     margin-bottom: 4rem;
+     padding-left: 1rem;
+ }
+ .footer__body-email::before , .footer__body-email , .footer__body-phone , .footer__body-phone::before {
+     margin-top: 0;
+     padding-top: 0;
+     margin-bottom: 0.5rem;
+ }
+}
