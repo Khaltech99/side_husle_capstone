@@ -19,10 +19,276 @@
     />
     <link rel="stylesheet" href="CSS/normalize.css" />
     <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script
       src="https://kit.fontawesome.com/124786ccc8.js"
       crossorigin="anonymous"
     ></script>
   </head>
-  <body></body>
+  <body>
+    <nav class="nav">
+      <a href="/"><img class="logo" src="/icon/logo.svg" alt="" /></a>
+      <div class="nav__list">
+        <ul class="list list--inline">
+          <li class="list__item"><a href="">Features</a></li>
+          <li class="list__item"><a href="">Team</a></li>
+          <li class="list__item"><a href="">Sign in</a></li>
+        </ul>
+      </div>
+    </nav>
+    <header class="hero hero--flex">
+      <img
+        class="hero__image"
+        src="/images/illustration-intro.png"
+        alt="hero image"
+      />
+      <h2 class="hero__heading">
+        All your files in one secure location , accessible anywhere
+      </h2>
+      <p class="hero__text">
+        Fylo stores all your most important files in one secure location .
+        Access them whenever you need , share and collaborate with friends
+        family , and co-workers
+      </p>
+      <a
+        href=""
+        class="btn btn--primary"
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-center"
+        >Get Started</a
+      >
+    </header>
+    <section class="features container">
+      <div class="plan grid grid-2x2">
+        <div
+          class="plan__item"
+          data-aos="zoom-out-up"
+          data-aos-easing="ease-in-out"
+          data-aos-delay="50"
+        >
+          <svg class="icon plan__image">
+            <use xlink:href="/icon/sprite (3).svg#icon-access-anywhere"></use>
+          </svg>
+          <p class="plan__text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad itaque
+            nisi provident doloribus nam pariatur, error facilis sit eveniet
+            consequatur.
+          </p>
+        </div>
+        <div
+          class="plan__item"
+          data-aos="zoom-out-up"
+          data-aos-easing="ease-in-out"
+          data-aos-delay="50"
+        >
+          <svg class="icon plan__image">
+            <use xlink:href="/icon/sprite (3).svg#icon-security"></use>
+          </svg>
+          <p class="plan__text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad itaque
+            nisi provident doloribus nam pariatur, error facilis sit eveniet
+            consequatur.
+          </p>
+        </div>
+        <div
+          class="plan__item"
+          data-aos="zoom-out-up"
+          data-aos-easing="ease-in-out"
+          data-aos-delay="50"
+        >
+          <svg class="icon plan__image">
+            <use xlink:href="/icon/sprite (3).svg#icon-collaboration"></use>
+          </svg>
+          <p class="plan__text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad itaque
+            nisi provident doloribus nam pariatur, error facilis sit eveniet
+            consequatur.
+          </p>
+        </div>
+        <div
+          class="plan__item"
+          data-aos="zoom-out-up"
+          data-aos-easing="ease-in-out"
+          data-aos-delay="50"
+        >
+          <svg class="icon plan__image">
+            <use xlink:href="/icon/sprite (3).svg#icon-any-file"></use>
+          </svg>
+          <p class="plan__text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad itaque
+            nisi provident doloribus nam pariatur, error facilis sit eveniet
+            consequatur.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="info grid grid-1x2 content">
+      <img
+        class="info__image"
+        data-aos="zoom-in-right"
+        src="/images/illustration-stay-productive.png"
+        alt=""
+      />
+      <div class="info__content" data-aos="zoom-in-left">
+        <h2 class="info__heading">Stay productive , wherever you are</h2>
+        <p class="info__text">
+          Never let location be an issue when accessing your files . Fylo has
+          you covered foe all of your file storage needs
+        </p>
+        <p class="info__text">
+          Securely share files and folders with friends family and collegues for
+          live collaboration. No email attachemanets reqired
+        </p>
+        <a href="#" class="link__text">See how Fylo works </a>
+      </div>
+    </section>
+    <section class="testimonial content grid grid-1x3">
+      <div
+        class="card card1"
+        data-aos="zoom-in-right"
+        data-aos-easing="ease-in-out"
+        data-aos-delay="50"
+      >
+        <img class="quote qouted--card" src="/images/bg-quotes.png" alt="" />
+        <div class="card__text">
+          Fylo has improved our team productivity by an order of magnitude.
+          since making the switch our team has become a well-oiled collaboration
+          machine
+        </div>
+        <div class="card__body">
+          <img class="card__image" src="/images/profile-1.jpg" alt="" />
+          <div class="card__account">
+            <h3 class="card__post">Satish Patel</h3>
+            <p class="card__name">Founder and CEO</p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="card"
+        data-aos="zoom-in-up"
+        data-aos-easing="ease-in-out"
+        data-aos-delay="50"
+      >
+        <div class="card__text">
+          Fylo has improved our team productivity by an order of magnitude.
+          since making the switch our team has become a well-oiled collaboration
+          machine
+        </div>
+        <div class="card__body">
+          <img class="card__image" src="/images/profile-2.jpg" alt="" />
+          <div class="card__account">
+            <h3 class="card__post">Bruce McKenzie</h3>
+            <p class="card__name">Founder and CEO</p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="card"
+        data-aos="zoom-in-left"
+        data-aos-easing="ease-in-out"
+        data-aos-delay="50"
+      >
+        <div class="card__text">
+          Fylo has improved our team productivity by an order of magnitude.
+          since making the switch our team has become a well-oiled collaboration
+          machine
+        </div>
+        <div class="card__body">
+          <img class="card__image" src="/images/profile-3.jpg" alt="" />
+          <div class="card__account">
+            <h3 class="card__post">Iva Boyd</h3>
+            <p class="card__name">Founder and CEO</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="callout content">
+      <header class="callout__header">
+        <h2 class="callout__heading">Get early access today</h2>
+      </header>
+      <p class="callout__body">
+        It only takes a minute to sign up abd our free starter tier is extremely
+        generous . If you haev any questions ,our support team would be happy to
+        help
+      </p>
+      <div class="callout__details flex">
+        <input
+          type="email"
+          class="input"
+          placeholder="Please enter valid e-mail address"
+        />
+        <a href="" class="btn btn--primary">Get Started</a>
+      </div>
+    </section>
+    <footer class="footer">
+      <a href="#">
+        <svg class="icon footer__image">
+          <use xlink:href="/icon/sprite (3).svg#logo"></use>
+        </svg>
+      </a>
+      <div class="footer-content grid grid-1x5">
+        <div
+          class="footer__body-location"
+          data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom"
+        >
+          <p class="footer__text">Lorem ipsum dolor sit amet consecte</p>
+        </div>
+        <div
+          class="mobile"
+          data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom"
+        >
+          <div
+            class="footer__body-phone"
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
+          >
+            <p class="footer__text"><a href="#">+1-543-123-4567</a></p>
+          </div>
+          <div
+            class="footer__body-email"
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
+          >
+            <p class="footer__text">
+              <a href="mailto:example@fylo.com">example@fylo.com</a>
+            </p>
+          </div>
+        </div>
+        <div
+          class="footer__service"
+          data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom"
+        >
+          <ul class="list footer--align">
+            <li class="list__item"><a href="#">About Us</a></li>
+            <li class="list__item"><a href="#">Jobs</a></li>
+            <li class="list__item"><a href="">Press</a></li>
+            <li class="list__item"><a href="">Blog</a></li>
+          </ul>
+        </div>
+        <div
+          class="footer__contact"
+          data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom"
+        >
+          <ul class="list footer--align">
+            <li class="list__item"><a href="#">Contact Us</a></li>
+            <li class="list__item"><a href="#">Terms</a></li>
+            <li class="list__item"><a href="#">Privacy</a></li>
+          </ul>
+        </div>
+        <div class="footer__icon">
+          <i class="social--icon fa fa-twitter fa-lg" aria-hidden="true"></i>
+          <i class="social--icon fa fa-facebook fa-lg" aria-hidden="true"></i>
+          <i class="social--icon fa fa-instagram fa-lg" aria-hidden="true"></i>
+        </div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>
