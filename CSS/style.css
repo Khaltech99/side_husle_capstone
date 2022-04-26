@@ -101,9 +101,18 @@ h3 {
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
     justify-content: space-between;
     padding: 1rem;
-    width: 100%;
-}
+    width: 50%;
 
+}
+@media screen and (min-width:768px) {
+    .nav {
+        width: 100%;
+    }
+    .logo {
+        height: 50%;
+        width: 7rem;
+    }
+}
 
 
 .logo {
@@ -276,10 +285,10 @@ a > .list__item {
 .link__text {
     border-bottom: 1px solid var(--color-cyan);
     color: var(--color-cyan);
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin-top: auto;
     padding-bottom: 5px;
-    font-weight: 700;
+    font-weight: 300;
 }
 
 .link__text::after {
