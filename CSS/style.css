@@ -99,10 +99,16 @@ h3 {
     background: var(--main-BG);
     display: flex;
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 1rem;
     width: 100%;
    
+}
+
+@media screen and (min-width:768px) {
+    .nav {
+        justify-content: space-between;
+    }
 }
 .logo {
     width: 10rem;
