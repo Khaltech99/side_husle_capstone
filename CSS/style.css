@@ -337,7 +337,7 @@ a > .list__item {
      margin-bottom: 2rem;
      margin-left: 4rem;
      margin-right: 4rem;
-     padding: 2rem 3rem 0 3rem;
+     padding: 1rem 2rem 0 1.5rem;
  }
 
  
@@ -425,7 +425,6 @@ a > .list__item {
  }
 
  .callout  .callout__heading {
-     font-size: 2rem;
      margin: 0;
      white-space: nowrap;
 
@@ -484,6 +483,9 @@ a > .list__item {
  .callout__details .input {
      width: 60%;
      margin-right: 2rem;
+ }
+ .callout__heading {
+     font-size: 2rem;
  }
 
  }
