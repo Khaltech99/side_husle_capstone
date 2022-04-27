@@ -100,15 +100,20 @@ h3 {
     display: flex;
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
     justify-content: space-between;
-    padding: 1rem;
+    padding: 1rem 7rem;
     width: 100%;
-
+   
 }
 .logo {
     width: 10rem;
     margin: 0;
     padding-left: 1rem;
     padding-right: 1rem;
+}
+
+.nav .list__item {
+    padding: 0;
+    
 }
 
 .nav__list {
