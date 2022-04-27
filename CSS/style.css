@@ -104,17 +104,21 @@ h3 {
     width: 100%;
    
 }
+.logo {
+    width: 5rem;
+    padding-left: 1rem;
+}
 
 @media screen and (min-width:768px) {
     .nav {
         justify-content: space-between;
     }
-}
-.logo {
-    width: 10rem;
-    margin: 0;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    .logo {
+        width: 10rem;
+        margin: 0;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
 }
 
 .nav .list__item {
@@ -352,16 +356,18 @@ a > .list__item {
  }
 
  .card__post {
-     font-size: 1.2rem;
+     font-size: .8rem;
      margin-bottom: 0;
      padding-bottom: 0;
  }
  .card__name {
     margin-top: 0;
     padding-bottom: 0;
+    font-size: 0.7rem;
  }
 .card__text {
     text-align: left;
+    font-size: 1rem;
 }
 .card__account {
     margin-left: 1rem;
@@ -373,7 +379,14 @@ a > .list__item {
         margin: 5rem 1rem; 
     }
     .card__post {
-         font-size: 1rem;
+         font-size: 1.2rem;
+     }
+     .card__name{
+         font-size: .9rem;
+     }
+     .card__text {
+         font-size: 1.3rem;
+         
      }
 
      .card__image {
@@ -430,6 +443,10 @@ a > .list__item {
     margin-top: 2rem;
     padding: 1.5rem ;
     width: 100%;
+}
+
+.callout__heading {
+    font-size: 1rem;
 }
 .flex {
     align-items: center;
