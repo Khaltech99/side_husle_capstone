@@ -100,20 +100,34 @@ h3 {
     display: flex;
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
     justify-content: space-between;
-    padding: 1rem;
+    padding-top: 1rem; 
     width: 100%;
 
 }
 .logo {
-    width: 70%;
+    width: 80%;
     margin: 0;
     padding-left: 1rem;
     padding-right: 1rem;
 }
 
 .nav__list {
-    font-size: 1rem;
+        font-size: 1rem;
 }
+
+
+/* @media screen and (min-width:768px) {
+    .nav {
+        width: 100%;
+    }
+     .logo { 
+        height: 50%;
+        width: 7rem;
+    }
+} */
+
+
+
 
 .nav__list{
    align-items: flex-end;
@@ -773,10 +787,9 @@ a > .list__item {
         top: -12px;
         left: -8px;
         }  
+   
     
 
-     
-     
+   
 
-        
-     
+    
