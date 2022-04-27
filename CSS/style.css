@@ -107,6 +107,7 @@ h3 {
 .logo {
     width: 5rem;
     padding-left: 1rem;
+    padding-top: .2rem;
 }
 
 @media screen and (min-width:768px) {
@@ -163,7 +164,7 @@ a > .list__item {
       border-radius: 50px;
       border: 0;
       display: block;
-      font-size: 1.8rem;
+      font-size: 1.2rem;
       padding: 1rem 1rem;
       text-align: center;
       white-space: nowrap;
@@ -336,7 +337,7 @@ a > .list__item {
      margin-bottom: 2rem;
      margin-left: 4rem;
      margin-right: 4rem;
-     padding: 2rem 3rem;
+     padding: 2rem 3rem 0 3rem;
  }
 
  
@@ -367,7 +368,7 @@ a > .list__item {
  }
 .card__text {
     text-align: left;
-    font-size: 1rem;
+    font-size: .8rem;
 }
 .card__account {
     margin-left: 1rem;
